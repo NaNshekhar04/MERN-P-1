@@ -1,8 +1,8 @@
-POST http://localhost:3500/api/workouts/ HTTP/1.1
+GET  http://localhost:3500/api/workouts/636e5a513f0cb8238dffa991 HTTP/1.1
 content-type: application/json
 
 {
-    "title": "situps",
-    "load": 0,
-    "reps": 10
+    "title": "BICEPS",
+    "load": 50,
+    "reps": 15
 }

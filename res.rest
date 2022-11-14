@@ -1,8 +1,25 @@
-GET  http://localhost:3500/api/workouts/636e5a513f0cb8238dffa991 HTTP/1.1
+GET  http://localhost:3500/api/workouts/ HTTP/1.1
 content-type: application/json
 
 {
     "title": "BICEPS",
     "load": 50,
     "reps": 15
+}
+
+###
+
+DELETE  http://localhost:3500/api/workouts/636e52724772b53604271997 HTTP/1.1
+content-type: application/json
+
+
+###
+
+PATCH http://localhost:3500/api/workouts/636e5a513f0cb8238dffa991 HTTP/1.1
+content-type: application/json
+
+{
+    "title" : "BEER BICEPS",
+    "load" : 100,
+    "reps" : 30
 }
